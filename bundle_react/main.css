@@ -250,9 +250,15 @@ html, body {
 
 .links1{
     padding: 15px;
+   
 
 }
 
 .lab1{
     border-radius: 20px;
+
+}
+
+.lab1:hover{
+    box-shadow: 2px 2px 4px 4px royalblue;
 }
