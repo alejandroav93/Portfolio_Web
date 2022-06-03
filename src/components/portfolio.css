@@ -44,10 +44,11 @@
     background-color: #ffffff;
 }
 .panel5{
-    height: 500px;
+    height: 325px;
     width: 100%; 
     overflow: hidden;
-    background-color: #f6f6f6;
+    background-color: #dbbca7;
+    text-align: center;
 }
 .panel6{
     margin-right: 500px;
@@ -222,14 +223,11 @@
     text-decoration: none;
 }
 
-.btn5{
-    float: right;
-    background-color: #ffffff;
-    margin-left: 300px;
-    font-size: 16px;
-    padding: 12px 24px;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    border-radius: 25px;
+.links1{
+    padding: 15px;
+
+}
+
+.lab1{
+    border-radius: 20px;
 }

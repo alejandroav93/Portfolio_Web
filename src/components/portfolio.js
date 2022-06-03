@@ -1,9 +1,13 @@
 /* eslint-disable react/prefer-stateless-function */
 // eslint-disable-next-line max-classes-per-file
 import React from 'react';
-import './discordSite.css';
+import './portfolio.css';
 import header from './img/Topper.png';
-
+import labs1 from './img/img1.png';
+import labs2 from './img/img2.png';
+import labs3 from './img/img3.png';
+import labs4 from './img/img4.png';
+import labs5 from './img/img5.png';
 import logo from './img/Picture.jpg';
 // eslint-disable-next-line react/prefer-stateless-function
 class DiscordSite extends React.Component {
@@ -35,20 +39,34 @@ class DiscordSite extends React.Component {
           </div>
         </div>
         <div className="panel2">
-          <div className="panel3">
-
-          </div>
           <div className="panel4">
             <h2 className="subText4">
-                Create an
-                invite-only
-                place where you
-                belong
+              My Projects related to Web Development
             </h2>
             <h4 className="subText5">
-              Discord servers are organized into topic-based channels where you can collaborate,
-              share, and just talk about your day without clogging up a group chat.
+              These projects go anywhere from basic HTML,
+              CSS and node.JS coding to React JS + Webpack
+              development using Linters and Babel.
             </h4>
+          </div>
+          <div className="panel5">
+            <a className="links1" href="http://54.210.69.168:3161/">
+              <img className="lab1" src={labs1} alt="" />
+            </a>
+            <a className="links1" href="http://54.210.69.168:3162/">
+              <img className="lab1" src={labs2} alt="" />
+            </a>
+            <a className="links1" href="http://54.210.69.168:3164/">
+              <img className="lab1" src={labs3} alt="" />
+            </a>
+            <a className="links1" href="http://54.210.69.168:3169/">
+              <img className="lab1" src={labs4} alt="" />
+            </a>
+          </div>
+          <div className="panel5">
+            <a className="links1" href="http://54.210.69.168:3166/">
+              <img className="lab1" src={labs5} alt="" />
+            </a>
           </div>
         </div>
       </div>
