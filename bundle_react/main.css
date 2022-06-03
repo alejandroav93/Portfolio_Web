@@ -1,0 +1,260 @@
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/index.css ***!
+  \*****************************************************************/
+html, body {
+    margin:0px;
+    height:auto;
+    max-width: 100%;
+    font-family: uni-Sans;
+    display: flex;
+  }
+@font-face {
+  font-family: uni-Sans;
+  src: url(a7b2ea4bed87a1e8f4d0.woff);
+}
+.Site{
+  
+  position:relative;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+/*!**********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/discordSite.css ***!
+  \**********************************************************************************/
+.mainpanel{
+    flex: 1;
+    height: auto;
+    max-width: auto;
+    background-color: #dbbca7;
+
+
+}
+.panel1{
+    position: relative;
+    width: 100% ;
+    background-repeat: no-repeat, no-repeat;
+
+}
+.logoImage{
+    max-width: 18%;
+    border-radius: 25px;
+}
+.panel1img{
+    width: 100% ;
+    height: 45vh;
+}
+.subPanel2{
+    height: 50vh;
+    width: 100% ;
+    background-color: #dbbca7;
+}
+
+
+.panel2{
+    height: 45vh;
+    position: relative;
+    width: 100%; 
+    background-repeat: no-repeat, no-repeat;
+    background-color: #dbbca7;
+}
+.panel4{
+    background-color: #dbbca7;
+}
+.panel3{
+    margin-left: 300px;
+    width: 600px; 
+    float: left;
+    background-color: #ffffff;
+}
+.panel5{
+    height: 500px;
+    width: 100%; 
+    overflow: hidden;
+    background-color: #f6f6f6;
+}
+.panel6{
+    margin-right: 500px;
+    width: 600px; 
+    float: right;
+}
+.panel7{
+
+    background-color: #f6f6f6;
+}
+.btn{
+    position:absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    color: #5865f4;
+    font-size: 16px;
+    padding: 12px 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+
+}
+.btn2{
+    position:absolute;
+    top: 60%;
+    right: 44%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #36393e;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 12px 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    text-decoration: none;
+
+}
+.btn2:hover{
+    background-color: #7983f5;
+}
+.link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.subText1{
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    font-weight:3600;
+}
+.subText3{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 20x;
+    font-weight: lighter;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+}
+.subText4{
+    top: 10%;
+    font-size: 45px;
+    text-align: center;
+    color: #2d204c;
+    
+}
+
+.subText5{
+    top: 20%;
+    text-align: center;
+    font-size: 25px;
+    color: #2d204c;
+}
+
+.subText6{
+    top: 10%;
+    font-size: 45px;
+    text-align: center;
+    
+}
+
+.subText7{
+    top: 20%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.subText8{
+    text-align: center;
+    font-size: 45px;
+}
+
+.panel9{
+    text-align: center;
+    background-color: #f6f6f6;
+}
+.panel10{
+    text-align: center;
+    background-color: #f6f6f6;
+}
+.btnEnd{
+    text-align: center;
+    margin-left: 150px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #5865f2;
+    color: #000000;
+    font-size: 16px;
+    padding: 12px 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.link2{
+    text-decoration: none;
+    color: #ffffff;
+}
+.btnEnd:hover{
+    background-color: #7983f5;
+}
+
+.panel11{
+    height: 50px;
+    background-color: #f6f6f6;
+}
+
+.panel0{
+    position: absolute;
+    margin-left: 300px;
+}
+.linksDiv{
+    margin-top: 38px;
+    margin-left: 375px;
+}
+.linksDiscord{
+    margin-left: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.linksDiscord:hover{
+    text-decoration: underline;
+}
+.logoImage{
+    float:left;
+    margin-top: 30px;
+}
+
+.linkLogin{
+
+    color: #000000;
+    text-decoration: none;
+}
+
+.btn5{
+    float: right;
+    background-color: #ffffff;
+    margin-left: 300px;
+    font-size: 16px;
+    padding: 12px 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
